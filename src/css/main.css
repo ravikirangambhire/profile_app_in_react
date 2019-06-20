@@ -1,0 +1,1300 @@
+/* Welcome to Compass SASS.
+ * In this file you should write your main styles.
+ * Import this file using the following HTML or equivalent.
+ * You can @import all your styles here.
+ * If not required any @import file. uncomment ex. // @import "helpers/variables";
+*/
+/** 
+  * Normalize.css is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards.
+  * Don't write any other styles here.
+**/
+/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* line 59, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 83, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 91, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 105, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 198, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+figcaption,
+figure {
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 207, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 221, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * Add the correct display in IE.
+ */
+/* line 231, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+main {
+  display: block;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 251, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 266, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 276, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 291, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 301, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 310, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 320, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 331, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 339, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 348, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 357, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 365, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 369, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 382, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 391, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 400, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 408, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 422, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ */
+/* line 442, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 451, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 462, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/* line 469, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+}
+/* line 478, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+/* line 487, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Show the overflow in Edge.
+ */
+/* line 496, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+input {
+  overflow: visible;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 505, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 515, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 525, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+  /**
+   * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+   */
+}
+/* line 533, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 544, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 553, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 566, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  color: inherit;
+  /* 2 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 580, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 589, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+textarea {
+  overflow: auto;
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE, and Firefox.
+ */
+/* line 602, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 610, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+summary {
+  display: list-item;
+}
+
+/*
+ * Add the correct display in IE 9-.
+ */
+/* line 618, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+menu {
+  display: block;
+}
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 651, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+/* line 659, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+/* line 672, C:/Ruby22/lib/ruby/gems/2.2.0/gems/normalize-scss-6.0.0/sass/normalize/_normalize-mixin.scss */
+[hidden] {
+  display: none;
+}
+
+/* 
+  * Include your font-family @font-face kit here.
+  * And define as a $variables in helpers/_variables.scss file.
+*/
+/** Open Sans font-family **/
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans/Light/OpenSans-Light.eot?v=1.1.0");
+  src: url("../fonts/OpenSans/Light/OpenSans-Light.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/OpenSans/Light/OpenSans-Light.woff2?v=1.1.0") format("woff2"), url("../fonts/OpenSans/Light/OpenSans-Light.woff?v=1.1.0") format("woff"), url("../fonts/OpenSans/Light/OpenSans-Light.ttf?v=1.1.0") format("truetype"), url("../fonts/OpenSans/Light/OpenSans-Light.svg?v=1.1.0#Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans/Regular/OpenSans-Regular.eot?v=1.1.0");
+  src: url("../fonts/OpenSans/Regular/OpenSans-Regular.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/OpenSans/Regular/OpenSans-Regular.woff2?v=1.1.0") format("woff2"), url("../fonts/OpenSans/Regular/OpenSans-Regular.woff?v=1.1.0") format("woff"), url("../fonts/OpenSans/Regular/OpenSans-Regular.ttf?v=1.1.0") format("truetype"), url("../fonts/OpenSans/Regular/OpenSans-Regular.svg?v=1.1.0#Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans/Italic/OpenSans-Italic.eot?v=1.1.0");
+  src: url("../fonts/OpenSans/Italic/OpenSans-Italic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/OpenSans/Italic/OpenSans-Italic.woff2?v=1.1.0") format("woff2"), url("../fonts/OpenSans/Italic/OpenSans-Italic.woff?v=1.1.0") format("woff"), url("../fonts/OpenSans/Italic/OpenSans-Italic.ttf?v=1.1.0") format("truetype"), url("../fonts/OpenSans/Italic/OpenSans-Italic.svg?v=1.1.0#Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans/Semibold/OpenSans-Semibold.eot?v=1.1.0");
+  src: url("../fonts/OpenSans/Semibold/OpenSans-Semibold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/OpenSans/Semibold/OpenSans-Semibold.woff2?v=1.1.0") format("woff2"), url("../fonts/OpenSans/Semibold/OpenSans-Semibold.woff?v=1.1.0") format("woff"), url("../fonts/OpenSans/Semibold/OpenSans-Semibold.ttf?v=1.1.0") format("truetype"), url("../fonts/OpenSans/Semibold/OpenSans-Semibold.svg?v=1.1.0#Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans/Bold/OpenSans-Bold.eot?v=1.1.0");
+  src: url("../fonts/OpenSans/Bold/OpenSans-Bold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/OpenSans/Bold/OpenSans-Bold.woff2?v=1.1.0") format("woff2"), url("../fonts/OpenSans/Bold/OpenSans-Bold.woff?v=1.1.0") format("woff"), url("../fonts/OpenSans/Bold/OpenSans-Bold.ttf?v=1.1.0") format("truetype"), url("../fonts/OpenSans/Bold/OpenSans-Bold.svg?v=1.1.0#Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 120, ../sass/helpers/_mixins.scss */
+.grid-container-fluid:before, .grid-container:before, .grid:before, .clearfix:before, .grid-container-fluid:after, .grid-container:after, .grid:after, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 125, ../sass/helpers/_mixins.scss */
+.grid-container-fluid:after, .grid-container:after, .grid:after, .clearfix:after {
+  clear: both;
+}
+
+/* line 132, ../sass/helpers/_mixins.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 136, ../sass/helpers/_mixins.scss */
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 4, ../sass/helpers/_grid.scss */
+.grid-container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 9, ../sass/helpers/_grid.scss */
+.grid-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 1140px;
+}
+
+/* line 15, ../sass/helpers/_grid.scss */
+.grid {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+/* line 7, ../sass/helpers/_helpers.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f5f5f5 !important;
+}
+
+/* line 15, ../sass/helpers/_helpers.scss */
+.hide {
+  display: none;
+}
+
+/* line 19, ../sass/helpers/_helpers.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 28, ../sass/helpers/_helpers.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+/* line 35, ../sass/helpers/_helpers.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 42, ../sass/helpers/_helpers.scss */
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+/* line 47, ../sass/helpers/_helpers.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 59, ../sass/helpers/_helpers.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 63, ../sass/helpers/_helpers.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 67, ../sass/helpers/_helpers.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 70, ../sass/helpers/_helpers.scss */
+.container-fluid {
+  min-width: 1024px !important;
+}
+
+/* line 74, ../sass/helpers/_helpers.scss */
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+/* line 77, ../sass/helpers/_helpers.scss */
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+/* line 80, ../sass/helpers/_helpers.scss */
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+  width: 3.1rem !important;
+  font-size: 1.15rem;
+  line-height: 1.8rem !important;
+}
+
+/* line 85, ../sass/helpers/_helpers.scss */
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item {
+  font-size: 1.15rem;
+}
+
+/* line 88, ../sass/helpers/_helpers.scss */
+.react-datepicker__current-month, .react-datepicker-time__header {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+}
+
+/* line 92, ../sass/helpers/_helpers.scss */
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range {
+  background-color: #3661f9 !important;
+  font-weight: 600 !important;
+}
+
+/* line 96, ../sass/helpers/_helpers.scss */
+.react-datepicker__day--selected:hover, .react-datepicker__day--in-selecting-range:hover, .react-datepicker__day--in-range:hover, .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected {
+  background-color: #3661f9 !important;
+}
+
+/* line 99, ../sass/helpers/_helpers.scss */
+.react-datepicker {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+  border-radius: 4px !important;
+  overflow: hidden;
+}
+
+/* line 104, ../sass/helpers/_helpers.scss */
+.modal-dialog {
+  width: 800px !important;
+}
+
+/* line 107, ../sass/helpers/_helpers.scss */
+.modal-header {
+  border-bottom: none !important;
+}
+
+/* line 110, ../sass/helpers/_helpers.scss */
+.modal-header .close {
+  display: none;
+}
+
+/* line 113, ../sass/helpers/_helpers.scss */
+.modal-header h4 {
+  font-weight: 600;
+}
+
+/* line 116, ../sass/helpers/_helpers.scss */
+.modal-content {
+  padding: 50px;
+  border-radius: 0;
+}
+
+/* line 120, ../sass/helpers/_helpers.scss */
+.react-datepicker__input-container .form-control {
+  background-image: url(/images/ic-calendar.svg);
+  background-repeat: no-repeat;
+  background-position: center right 15px;
+}
+
+/* line 125, ../sass/helpers/_helpers.scss */
+.__react_component_tooltip {
+  font-size: 12px !important;
+}
+
+/* line 2, ../sass/components/_buttons.scss */
+.btn-primary {
+  background: #0C42FF;
+  padding: 12px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  width: 200px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 15px;
+}
+/* line 12, ../sass/components/_buttons.scss */
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: rgba(12, 66, 255, 0.9);
+}
+
+/* line 18, ../sass/components/_buttons.scss */
+.btn-cancel {
+  background: #FFFFFF;
+  padding: 12px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  width: auto;
+  border: 1px solid #121232;
+  color: #121232;
+  font-size: 15px;
+  margin-right: 15px;
+}
+/* line 29, ../sass/components/_buttons.scss */
+.btn-cancel:hover, .btn-cancel:focus, .btn-cancel:active {
+  background-color: #FFFFFF;
+}
+
+/* line 1, ../sass/components/_forms.scss */
+.form-control {
+  border-radius: 4px;
+  padding: 0 15px;
+  border: 1px solid #A1A4B1;
+  color: #232735;
+  height: 48px;
+}
+
+/* line 8, ../sass/components/_forms.scss */
+label {
+  color: #505565;
+  font-weight: 600;
+}
+
+/* line 12, ../sass/components/_forms.scss */
+.error {
+  margin-top: 5px;
+}
+
+/* line 15, ../sass/components/_forms.scss */
+.editInput {
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+  padding-left: 0;
+  box-shadow: none;
+  border-radius: 0;
+}
+/* line 21, ../sass/components/_forms.scss */
+.editInput:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* line 26, ../sass/components/_forms.scss */
+.content .search input {
+  background: #FFFFFF url(/images/ic-search.svg) no-repeat center left 15px;
+  padding-left: 40px !important;
+}
+
+/* line 1, ../sass/components/_carousel.scss */
+.react-tabs {
+  -webkit-tap-highlight-color: transparent;
+}
+/* line 4, ../sass/components/_carousel.scss */
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+}
+/* line 10, ../sass/components/_carousel.scss */
+.react-tabs__tab {
+  display: inline-block;
+  border: 2px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 15px;
+  cursor: pointer;
+  color: #505565;
+  min-width: 166px;
+  text-align: center;
+  margin-right: 10px;
+}
+/* line 24, ../sass/components/_carousel.scss */
+.react-tabs__tab--selected {
+  color: #000000;
+  border-bottom: 2px solid #121232;
+}
+/* line 29, ../sass/components/_carousel.scss */
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+/* line 34, ../sass/components/_carousel.scss */
+.react-tabs__tab:focus {
+  box-shadow: 0 0 5px #0188fe;
+  border-color: #0188fe;
+  outline: none;
+}
+/* line 39, ../sass/components/_carousel.scss */
+.react-tabs__tab:focus:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff;
+}
+/* line 51, ../sass/components/_carousel.scss */
+.react-tabs__tab-panel {
+  display: none;
+}
+/* line 54, ../sass/components/_carousel.scss */
+.react-tabs__tab-panel--selected {
+  display: block;
+  padding: 30px 40px;
+}
+
+/* line 1, ../sass/layout/_header.scss */
+.sideBar {
+  min-width: 72px;
+  max-width: 72px;
+  background: #FFFFFF;
+  color: #FFFFFF;
+  transition: all 0.3s;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  text-align: center;
+  left: 0;
+}
+/* line 13, ../sass/layout/_header.scss */
+.sideBar .sidebar-header h2 {
+  font-size: 44px;
+  color: #000000;
+  font-weight: 600;
+  line-height: 64px;
+}
+/* line 20, ../sass/layout/_header.scss */
+.sideBar .menulist {
+  display: table-cell;
+  vertical-align: middle;
+  height: calc(100vh - 150px);
+  vertical-align: middle;
+}
+/* line 26, ../sass/layout/_header.scss */
+.sideBar .menulist ul li {
+  border-left: 4px solid transparent;
+}
+/* line 29, ../sass/layout/_header.scss */
+.sideBar .menulist ul li a {
+  width: 72px;
+  padding: 12px 0;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+/* line 35, ../sass/layout/_header.scss */
+.sideBar .menulist ul li a .menuTitle {
+  display: none;
+  position: absolute;
+  background-color: rgba(60, 64, 67, 0.9);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .3px;
+  line-height: 16px;
+  padding: 4px 8px;
+  white-space: nowrap;
+  z-index: 9999;
+}
+/* line 52, ../sass/layout/_header.scss */
+.sideBar .menulist ul li a:hover .menuTitle {
+  display: block;
+}
+/* line 57, ../sass/layout/_header.scss */
+.sideBar .menulist ul li:last-child {
+  margin-bottom: 0;
+}
+/* line 60, ../sass/layout/_header.scss */
+.sideBar .menulist ul li.active {
+  border-left: 4px solid #3661f9;
+}
+/* line 63, ../sass/layout/_header.scss */
+.sideBar .menulist ul li.active svg path {
+  fill: #3661f9;
+  stroke: #3661f9;
+}
+/* line 67, ../sass/layout/_header.scss */
+.sideBar .menulist ul li.active svg circle {
+  fill: #3661f9;
+  stroke: #3661f9;
+}
+/* line 71, ../sass/layout/_header.scss */
+.sideBar .menulist ul li.active svg rect {
+  stroke: #3661f9;
+}
+/* line 78, ../sass/layout/_header.scss */
+.sideBar .menulist ul li.scheduleTab svg path {
+  fill: transparent !important;
+}
+
+/* line 87, ../sass/layout/_header.scss */
+.logoutBtn {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.31) 0px 0px 1px;
+  box-sizing: border-box;
+  max-height: 90vh;
+  background: white;
+  border-radius: 3px;
+  overflow: auto;
+  padding: 10px 15px;
+  position: fixed;
+  bottom: 18px;
+  left: 62px;
+  z-index: 9998;
+  cursor: pointer;
+}
+
+/* line 1, ../sass/pages/_home.scss */
+.content {
+  min-height: 100vh;
+  transition: all 0.3s;
+  margin: 20px 58px 20px 130px;
+}
+/* line 5, ../sass/pages/_home.scss */
+.content h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 30px;
+}
+/* line 12, ../sass/pages/_home.scss */
+.content .posRelative {
+  position: relative;
+}
+/* line 14, ../sass/pages/_home.scss */
+.content .posRelative .no-records {
+  margin: 130px 0;
+  font-size: 18px;
+}
+/* line 18, ../sass/pages/_home.scss */
+.content .posRelative table {
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #f5f5f5;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+/* line 25, ../sass/pages/_home.scss */
+.content .posRelative table thead th {
+  color: #4E4E4F;
+  font-weight: normal;
+  padding: 15px;
+  border-bottom: none;
+  background: #F5F5F5;
+}
+/* line 35, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td {
+  color: #4e4e4f;
+  border-top: 1px solid #f5f5f5;
+  padding: 15px;
+}
+/* line 39, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td a {
+  text-decoration: underline;
+  color: #4e4e4f;
+}
+/* line 44, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td span.icon {
+  margin-right: 5px;
+  padding: 10px;
+}
+/* line 48, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td span.link {
+  margin-right: 10px;
+}
+/* line 52, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td .iconHover {
+  padding: 10px;
+}
+/* line 54, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td .iconHover:hover {
+  background-color: #f1f3f4;
+  border-radius: 50%;
+}
+/* line 59, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td.green {
+  color: #219653;
+  width: 12%;
+}
+/* line 63, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td.green span.icon {
+  margin-right: 10px;
+}
+/* line 68, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td.red {
+  color: #EB5757;
+  width: 12%;
+}
+/* line 72, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td.red span.icon {
+  margin-right: 10px;
+}
+/* line 77, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td.gray {
+  color: #4E4E4F;
+  width: 12%;
+}
+/* line 81, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td.gray span.icon {
+  margin-right: 10px;
+}
+/* line 87, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td.last {
+  width: 15%;
+}
+/* line 89, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr td.last img {
+  cursor: pointer;
+}
+/* line 94, ../sass/pages/_home.scss */
+.content .posRelative table tbody tr:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* line 103, ../sass/pages/_home.scss */
+.content .posRelative .scheduletable td {
+  position: relative;
+}
+/* line 105, ../sass/pages/_home.scss */
+.content .posRelative .scheduletable td:nth-child(2) {
+  width: 12%;
+}
+/* line 108, ../sass/pages/_home.scss */
+.content .posRelative .scheduletable td:nth-child(3) {
+  width: 12%;
+}
+/* line 111, ../sass/pages/_home.scss */
+.content .posRelative .scheduletable td:nth-child(4) {
+  width: 18%;
+}
+/* line 114, ../sass/pages/_home.scss */
+.content .posRelative .scheduletable td:nth-child(5) {
+  width: 18%;
+}
+/* line 117, ../sass/pages/_home.scss */
+.content .posRelative .scheduletable td:nth-child(7) {
+  width: 8%;
+}
+/* line 120, ../sass/pages/_home.scss */
+.content .posRelative .scheduletable td p {
+  position: absolute;
+  left: 15px;
+  right: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 131, ../sass/pages/_home.scss */
+.content .posRelative .providertable td {
+  position: relative;
+}
+/* line 133, ../sass/pages/_home.scss */
+.content .posRelative .providertable td.w-50 {
+  width: 50%;
+}
+/* line 136, ../sass/pages/_home.scss */
+.content .posRelative .providertable td p {
+  position: absolute;
+  left: 15px;
+  right: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 147, ../sass/pages/_home.scss */
+.content .posRelative .addBtn {
+  position: fixed;
+  width: 64px;
+  bottom: 20px;
+  right: 68px;
+  cursor: pointer;
+}
+/* line 156, ../sass/pages/_home.scss */
+.content .search input {
+  width: 100%;
+  padding: 20px;
+  font-size: 14px;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #f5f5f5;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+/* line 166, ../sass/pages/_home.scss */
+.content .containerDiv {
+  font-size: 14px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #f5f5f5;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  min-height: 200px;
+  margin-bottom: 20px;
+}
+/* line 173, ../sass/pages/_home.scss */
+.content .containerDiv .editContent {
+  padding: 30px 40px;
+}
+/* line 176, ../sass/pages/_home.scss */
+.content .containerDiv h5 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000000;
+}
+/* line 182, ../sass/pages/_home.scss */
+.content .containerDiv th {
+  background-color: #F5F5F5;
+  padding: 15px;
+  border-bottom: none;
+  color: #4E4E4F;
+  font-weight: normal;
+}
+/* line 189, ../sass/pages/_home.scss */
+.content .containerDiv td {
+  padding: 15px;
+  vertical-align: middle;
+}
+/* line 192, ../sass/pages/_home.scss */
+.content .containerDiv td input {
+  border: 1px solid #A1A4B1;
+}
+/* line 195, ../sass/pages/_home.scss */
+.content .containerDiv td .icon {
+  margin-right: 20px;
+}
+/* line 198, ../sass/pages/_home.scss */
+.content .containerDiv td.last {
+  width: 8%;
+}
+/* line 201, ../sass/pages/_home.scss */
+.content .containerDiv td.miniRow {
+  width: 10%;
+  text-align: center;
+}
+/* line 209, ../sass/pages/_home.scss */
+.content table tr.suggestValign td {
+  vertical-align: top;
+}
+
+/* line 215, ../sass/pages/_home.scss */
+.loader {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 223, ../sass/pages/_home.scss */
+.loader .loaderContent {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin: -30px 0 0 -30px;
+}
+
+/* line 2, ../sass/pages/_login.scss */
+.loginContainer .loginLeft {
+  background: url(/images/login-bg.svg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+}
+/* line 9, ../sass/pages/_login.scss */
+.loginContainer .loginLeft .valign {
+  text-align: center;
+  width: 100%;
+}
+/* line 14, ../sass/pages/_login.scss */
+.loginContainer .loginRight {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+/* line 18, ../sass/pages/_login.scss */
+.loginContainer .loginRight .loginForm {
+  max-width: 450px;
+  margin: auto;
+  width: 100%;
+}
+/* line 22, ../sass/pages/_login.scss */
+.loginContainer .loginRight .loginForm h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  font-size: 24px;
+  color: #232735;
+}
+/* line 30, ../sass/pages/_login.scss */
+.loginContainer .loginRight .loginForm h6 {
+  font-weight: normal;
+  line-height: 16px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #505565;
+}
